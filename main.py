@@ -22,8 +22,8 @@ rvt = giris.html.find(
     'input[name="__RequestVerificationToken"]', first=True).attrs['value']
 myjson = {
     "__RequestVerificationToken": rvt,
-    "UserName": "thearteus@proton.me",
-    "Password": "Eksisozluk!3",
+    "UserName": "",
+    "Password": "",
     "RememberMe": "true",
     "ReturnUrl": "https://eksisozluk.com/"
 }
